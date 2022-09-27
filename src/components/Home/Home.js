@@ -20,7 +20,7 @@ const Home = () => {
     const handleDelete = (id) => {
         const leftPlayer = cart.filter(p => p.idPlayer !== id)
         setCart(leftPlayer);
-        toast("Wow deleted player from the card!");
+        toast("Deleted player from the card!");
     }
 
     return (
