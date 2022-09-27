@@ -1,0 +1,18 @@
+.card{
+    width: 280px;
+    height: 450px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.card-image{
+    width: 280px;
+}
+
+.card-btn{
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
